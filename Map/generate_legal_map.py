@@ -32,9 +32,11 @@ def generate_legal_map():
                 if generated_key == key:
                     key_in_map = True
 
-            key_already_exists = key_in_map
+            if not key_in_map:
+                key_already_exists = False
 
         generated_value = generate_random_string()
         map.append((generated_key, generated_value))
+        keys.append(generated_key)
 
     return map

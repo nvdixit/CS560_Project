@@ -28,19 +28,19 @@ def correct_parse_map(filepath):
             legal_map = False
         else:
             # Remove the quotes around the key and value
-            key = str(key)[2:]
-            key = str(key)[:len(key) - 1]
+            key = str(key)[1:]
+            key = key[:len(key) - 1]
 
             value = str(value)[2:]
             value = str(value)[:len(value) - 1]
-            
-            map.append((key, value)) # Add the pair to the map
 
-            # Check if the key that was just added already exists in the map
+            # Check if this key already exists in the map
             # If it does, this is not a legal map
             for existing_key in map:
-                if key == existing_key:
+                if key == existing_key[0]:
                     legal_map = False
+
+            map.append((key, value)) # Add the pair to the map        
 
     f.close()
 

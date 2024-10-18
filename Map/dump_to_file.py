@@ -11,20 +11,20 @@ def dump_to_json_file(map, filepath):
         s = ""
 
         if key is None:
-            s = s + "\t\"" + "null" + "\": "
+            s = s + "\t" + "null" + ": "
         else:
             s = s + "\t\"" + str(key) + "\": "
 
         if idx == len(map) - 1:
             if value is None:
-                s = s + "\"" + "null" + "\"\n"
+                s = s + "null" + "\n"
             else:
                 s = s + "\"" + str(value) + "\"\n"
         else:
             if value is None:
-                s = s + "\"" + "null" + ",\"\n"
+                s = s + "null" + ",\n"
             else:
-                s = s + "\"" + str(value) + ",\"\n"
+                s = s + "\"" + str(value) + "\",\n"
     
         json_str = json_str + s
 

@@ -99,11 +99,11 @@ def generate_illegal_map(error_type):
 
     # Half the map will be legal (key, value) pairs
     for i in range(0, int(map_size * 0.5)):
-        pair_to_append = good_element()
+        pair_to_append = good_element(keys)
         map.append(pair_to_append)
-        keys.append[pair_to_append[0]]
+        keys.append(pair_to_append[0])
 
-    
+
     # The rest of the map will be erroneous (key, value) pairs
     # Iteratively generate each (key, value) pair
     for i in range(int(map_size * 0.5) + 1, map_size):
@@ -130,6 +130,6 @@ def generate_illegal_map(error_type):
         map.append(pair_to_append)
         keys.append(pair_to_append[0])
 
-
+    random.shuffle(map) # Shuffle the list in place
 
     return map
