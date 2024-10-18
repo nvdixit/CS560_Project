@@ -1,5 +1,3 @@
-
-
 # Write the map to a .json string and dump to file
 def dump_to_json_file(map, filepath):
     json_str = "{\n"
@@ -7,32 +5,32 @@ def dump_to_json_file(map, filepath):
     idx = 0
     # Loop through the map and manually create the json string for each line
     for pair in map:
-        key = pair
-        value = None
+        key = pair[0]
+        value = pair[1]
 
         s = ""
 
-        if len(pair) == 2:
-            key = pair[0]
-            value = pair[1]
-
-            s = s + "\t\"" + str(key) + "\": "
-            if idx == len(map) - 1:
-                s = s + "\"" + str(value) + "\"\n"
-            else:
-                s = s + "\"" + str(value) + "\",\n"
-
+        if key is None:
+            s = s + "\t\"" + "null" + "\": "
         else:
-            s = s + "\t\"" + str(key) + "\": null"
-            if idx == len(map) - 1:
-                s = s + "\n"
+            s = s + "\t\"" + str(key) + "\": "
+
+        if idx == len(map) - 1:
+            if value is None:
+                s = s + "\"" + "null" + "\"\n"
             else:
-                s = s + ",\n"
+                s = s + "\"" + str(value) + "\"\n"
+        else:
+            if value is None:
+                s = s + "\"" + "null" + ",\"\n"
+            else:
+                s = s + "\"" + str(value) + ",\"\n"
     
         json_str = json_str + s
 
         idx = idx + 1
-    json_str = json_str + "\n}"
+
+    json_str = json_str + "}"
 
     # Dump the created map to a json file
     f = open(filepath, "w")

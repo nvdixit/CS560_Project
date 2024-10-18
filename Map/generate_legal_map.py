@@ -38,8 +38,3 @@ def generate_legal_map():
         map.append((generated_key, generated_value))
 
     return map
-
-
-for i in range(0, 5):
-    map = generate_legal_map()
-    dump_to_json_file(map, "./Legal_maps/legal_json_" + str(i + 1) + ".json")
