@@ -9,6 +9,6 @@ Graph/__pycache__/dump_to_file.cpython-310.pyc
 Graph/__pycache__/generate_legal_graph.cpython-310.pyc
 
 
-
+*.pyc
 
 .idea/*

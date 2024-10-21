@@ -10,7 +10,7 @@ def generate_random_string() -> str:
     return generated_str
 
 
-def generate_legal_graph() -> dict:
+def generate_legal_graph() -> list:
     node_count = random.randint(0, 500)
     graph = {}
 
@@ -26,7 +26,7 @@ def generate_legal_graph() -> dict:
             if random.random() < DENSITY:
                 graph[s].append(t)
 
-    return graph
+    return list(graph.items())
 
 
 if __name__ == '__main__':
