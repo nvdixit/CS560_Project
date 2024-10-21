@@ -42,8 +42,8 @@ def node_with_self_edge() -> tuple[str, list]:
 
 
 # Generate a duplicate node
-def duplicate_node(graph: dict) -> tuple[str, list]:
-    return random.choice(list(graph.items()))
+def duplicate_node(graph: list) -> tuple[str, list]:
+    return random.choice(graph)
 
 
 # Generate a node with null label
@@ -57,7 +57,7 @@ def null_edges() -> tuple[str, list]:
 
 
 # Generate a graph
-def generate_illegal_graph(error_type: int) -> dict:
+def generate_illegal_graph(error_type: int) -> list:
     node_count = random.randint(0, 500)
     graph = {}
 
@@ -74,27 +74,27 @@ def generate_illegal_graph(error_type: int) -> dict:
             if random.random() < DENSITY:
                 graph[s].append(t)
 
+    graph = list(graph.items())
+
     if error_type == 1:
         err_node = node_with_null_edge()
-        graph[err_node[0]] = err_node[1]
+        graph.append((err_node[0], err_node[1]))
     elif error_type == 2:
         err_node = node_not_in_graph()
-        graph[err_node[0]] = err_node[1]
+        graph.append((err_node[0], err_node[1]))
     elif error_type == 3:
         err_node = node_with_self_edge()
-        graph[err_node[0]] = err_node[1]
+        graph.append((err_node[0], err_node[1]))
     elif error_type == 4:
         err_node = duplicate_node(graph)
-        graph[err_node[0]] = err_node[1]
+        graph.append((err_node[0], err_node[1]))
     elif error_type == 5:
         err_node = null_node()
-        graph[err_node[0]] = err_node[1]
+        graph.append((err_node[0], err_node[1]))
     elif error_type == 6:
         err_node = null_edges()
-        graph[err_node[0]] = err_node[1]
+        graph.append((err_node[0], err_node[1]))
 
-    graph_items = list(graph.items())
-    random.shuffle(graph_items)
-    graph = dict(graph_items)
+    random.shuffle(graph)
 
     return graph
