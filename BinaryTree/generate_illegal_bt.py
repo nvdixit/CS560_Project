@@ -12,7 +12,6 @@ def generate_random_string() -> str:
 
 
 def add_illegal_children(id_, node_count, err_nodes, err_type):
-    print("Add Illegal Children")
     rndm = random.randint(3, 5)
     subtree_size = node_count // rndm
     root = BinaryTree(val=generate_random_string(), id_=id_)
@@ -75,6 +74,8 @@ def generate_illegal_bt(id_, err_nodes, err_type, node_count=100):
         elif err_type == 3:
             root = BinaryTree(val=generate_random_string(), id_=id_)
             child = BinaryTree(val=root.val, id_=root.id)
+            child.children.append(None)
+            child.children.append(None)
             root.children.append(child)
 
             count = node_count - 1
@@ -112,9 +113,7 @@ if __name__ == '__main__':
     total_errs = 3
     size = 150
     for i in range(6):
-        print(i + 1)
         rndmInt = random.randint(0, size)
         err_node = random.randint(0, rndmInt - 1)
         tree = generate_illegal_bt(node_count=rndmInt, id_=0, err_nodes=err_node, err_type=i % total_errs + 1)
-        #ret = print_inorder_traversal(tree)
         dump_to_file.dump_to_json_file(tree.flatten(), 'Illegal_BT/illegal_bt_{0}.json'.format(i + 1))

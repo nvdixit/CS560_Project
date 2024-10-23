@@ -12,3 +12,20 @@ class BinaryTree:
             "children": [node.flatten() if node else None for node in self.children],
             #"right": self.right.flatten() if self.right else None,
         }
+
+    @classmethod
+    def from_json(cls, json):
+        obj = None
+        if not json:
+            return obj
+
+        if "val" in json.keys() and "id" in json.keys():
+            obj = cls(json["val"], json["id"])
+        else:
+            return obj
+
+        if "children" in json.keys() and json["children"] is not None:
+            for subtree in json["children"]:
+                obj.children.append(cls.from_json(subtree))
+
+        return obj

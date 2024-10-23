@@ -417,7 +417,10 @@
                             {
                               "val": "GVSudZBIDfi",
                               "id": 61,
-                              "children": []
+                              "children": [
+                                null,
+                                null
+                              ]
                             },
                             {
                               "val": "DdPDkWhNxAfGslDogCmBXyEfMCxjrHISdEstcZx",
