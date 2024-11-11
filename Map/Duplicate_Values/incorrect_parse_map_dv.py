@@ -1,4 +1,4 @@
-def correct_parse_map(filepath):
+def incorrect_parse_map_dv(filepath):
     f = open(filepath)
 
     legal_map = True
@@ -31,14 +31,16 @@ def correct_parse_map(filepath):
             key = str(key)[1:]
             key = key[:len(key) - 1]
 
-            value = str(value)[2:]
+            value = str(value)[1:]
             value = str(value)[:len(value) - 1]
 
             # Check if this key already exists in the map
-            # If it does, this is not a legal map
-            for existing_key in map:
-                if key == existing_key[0]:
+            # If it does, this is not a semantically valid map
+            for existing_pair in map:
+                if key == existing_pair[0]:
                     legal_map = False
+
+                # Don't check if the value also already exists in the map
 
             map.append((key, value)) # Add the pair to the map        
 

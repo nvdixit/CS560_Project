@@ -128,7 +128,7 @@ def unchecked_duplicate_keys(filepath):
             key = str(key)[1:]
             key = key[:len(key) - 1]
 
-            value = str(value)[2:]
+            value = str(value)[1:]
             value = str(value)[:len(value) - 1]
 
             map.append((key, value)) # Add the pair to the map        
