@@ -3,7 +3,7 @@ from generate_invalid_map_al import *
 from dump_to_file import *
 
 
-def correct_parse_map_al(filepath):
+def incorrect_parse_map_al(filepath):
     f = open(filepath)
 
     legal_map = True
@@ -62,29 +62,6 @@ def correct_parse_map_al(filepath):
 
     f.close()
 
-    # Check if the destination of every edge is actually a node in the graph
-    # Run through all vertices in the map
-    for vertex_edges in map:
-        edges = vertex_edges[1] # Get the current vertex's edge list
-
-        # Run through all those edges
-        for edge in edges:
-            vertex_found = False
-
-            # Run through the entire map again
-            for ve in map:
-                v = ve[0] # Get the vertex on this runthrough
-
-                # If the edge is not None (the current vertex is a sink)
-                # and the vertex in the current vertex's edge list matches this vertex
-                # We know that this edge exists in the graph
-                if edge is not None and v == edge:
-                    vertex_found = True
-                elif edge is None:
-                    vertex_found = True
-
-            # If we never found a match, the map is not valid (1+ vertices have edges that connect to vertices that don't exist)
-            if not vertex_found:
-                legal_map = False
+    # Don't check if the destination of every edge is actually a node in the graph
 
     return legal_map
