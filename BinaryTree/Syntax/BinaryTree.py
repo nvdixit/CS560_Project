@@ -1,8 +1,8 @@
 
 class BinaryTree:
     def __init__(self, val, id_):
-        self.val = val
-        self.id = id_
+        self.val = val # random bit string
+        self.id = id_ # unique id
         self.children = [] # this will be used for an invalid bt (more than two children)
 
     def flatten(self):
