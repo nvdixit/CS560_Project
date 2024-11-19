@@ -1,0 +1,540 @@
+{
+  "val": 91,
+  "id": 0,
+  "children": [
+    {
+      "val": 100,
+      "id": 1,
+      "children": [
+        {
+          "val": 105,
+          "id": 2,
+          "children": [
+            {
+              "val": 113,
+              "id": 3,
+              "children": [
+                {
+                  "val": 132,
+                  "id": 4,
+                  "children": [
+                    null,
+                    {
+                      "val": 151,
+                      "id": 5,
+                      "children": [
+                        {
+                          "val": 154,
+                          "id": 6,
+                          "children": [
+                            null,
+                            {
+                              "val": 165,
+                              "id": 7,
+                              "children": [
+                                null,
+                                null
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "val": 153,
+                          "id": 8,
+                          "children": [
+                            {
+                              "val": 154,
+                              "id": 9,
+                              "children": [
+                                {
+                                  "val": 161,
+                                  "id": 10,
+                                  "children": [
+                                    null,
+                                    null
+                                  ]
+                                },
+                                null
+                              ]
+                            },
+                            null
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "val": 114,
+                  "id": 11,
+                  "children": [
+                    null,
+                    null
+                  ]
+                }
+              ]
+            },
+            {
+              "val": 107,
+              "id": 12,
+              "children": [
+                {
+                  "val": 114,
+                  "id": 13,
+                  "children": [
+                    {
+                      "val": 130,
+                      "id": 14,
+                      "children": [
+                        null,
+                        {
+                          "val": 145,
+                          "id": 15,
+                          "children": [
+                            null,
+                            null
+                          ]
+                        }
+                      ]
+                    },
+                    null
+                  ]
+                },
+                {
+                  "val": 122,
+                  "id": 16,
+                  "children": [
+                    null,
+                    {
+                      "val": 131,
+                      "id": 17,
+                      "children": [
+                        null,
+                        null
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "val": 102,
+          "id": 18,
+          "children": [
+            null,
+            {
+              "val": 105,
+              "id": 19,
+              "children": [
+                null,
+                {
+                  "val": 114,
+                  "id": 20,
+                  "children": [
+                    {
+                      "val": 132,
+                      "id": 21,
+                      "children": [
+                        {
+                          "val": 151,
+                          "id": 22,
+                          "children": [
+                            null,
+                            null
+                          ]
+                        },
+                        {
+                          "val": 141,
+                          "id": 23,
+                          "children": [
+                            null,
+                            {
+                              "val": 147,
+                              "id": 24,
+                              "children": [
+                                null,
+                                null
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "val": 115,
+                      "id": 25,
+                      "children": [
+                        {
+                          "val": 124,
+                          "id": 26,
+                          "children": [
+                            {
+                              "val": 141,
+                              "id": 27,
+                              "children": [
+                                {
+                                  "val": 147,
+                                  "id": 28,
+                                  "children": [
+                                    {
+                                      "val": 153,
+                                      "id": 29,
+                                      "children": [
+                                        {
+                                          "val": 158,
+                                          "id": 30,
+                                          "children": [
+                                            null,
+                                            null
+                                          ]
+                                        },
+                                        null
+                                      ]
+                                    },
+                                    null
+                                  ]
+                                },
+                                {
+                                  "val": 157,
+                                  "id": 31,
+                                  "children": [
+                                    {
+                                      "val": 160,
+                                      "id": 32,
+                                      "children": [
+                                        null,
+                                        null
+                                      ]
+                                    },
+                                    {
+                                      "val": 175,
+                                      "id": 33,
+                                      "children": [
+                                        null,
+                                        {
+                                          "val": 176,
+                                          "id": 34,
+                                          "children": [
+                                            {
+                                              "val": 189,
+                                              "id": 35,
+                                              "children": [
+                                                {
+                                                  "val": 194,
+                                                  "id": 36,
+                                                  "children": [
+                                                    {
+                                                      "val": 212,
+                                                      "id": 37,
+                                                      "children": [
+                                                        null,
+                                                        null
+                                                      ]
+                                                    },
+                                                    null
+                                                  ]
+                                                },
+                                                {
+                                                  "val": 189,
+                                                  "id": 38,
+                                                  "children": [
+                                                    {
+                                                      "val": 207,
+                                                      "id": 39,
+                                                      "children": [
+                                                        null,
+                                                        null
+                                                      ]
+                                                    },
+                                                    null
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "val": 180,
+                                              "id": 40,
+                                              "children": [
+                                                null,
+                                                null
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "val": 143,
+                              "id": 41,
+                              "children": [
+                                null,
+                                null
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "val": 132,
+                          "id": 42,
+                          "children": [
+                            null,
+                            null
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "val": 102,
+      "id": 43,
+      "children": [
+        {
+          "val": 112,
+          "id": 44,
+          "children": [
+            {
+              "val": 125,
+              "id": 45,
+              "children": [
+                null,
+                null
+              ]
+            },
+            {
+              "val": 121,
+              "id": 46,
+              "children": [
+                null,
+                null
+              ]
+            }
+          ]
+        },
+        {
+          "val": 108,
+          "id": 47,
+          "children": [
+            {
+              "val": 111,
+              "id": 48,
+              "children": [
+                {
+                  "val": 119,
+                  "id": 49,
+                  "children": [
+                    {
+                      "val": 137,
+                      "id": 50,
+                      "children": [
+                        {
+                          "val": 148,
+                          "id": 51,
+                          "children": [
+                            {
+                              "val": 148,
+                              "id": 52,
+                              "children": [
+                                null,
+                                {
+                                  "val": 152,
+                                  "id": 53,
+                                  "children": [
+                                    null,
+                                    {
+                                      "val": 171,
+                                      "id": 54,
+                                      "children": [
+                                        null,
+                                        null
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "val": 159,
+                              "id": 55,
+                              "children": [
+                                {
+                                  "val": 172,
+                                  "id": 56,
+                                  "children": [
+                                    {
+                                      "val": 176,
+                                      "id": 57,
+                                      "children": [
+                                        null,
+                                        null
+                                      ]
+                                    },
+                                    {
+                                      "val": 190,
+                                      "id": 58,
+                                      "children": [
+                                        {
+                                          "val": 209,
+                                          "id": 59,
+                                          "children": [
+                                            null,
+                                            null
+                                          ]
+                                        },
+                                        null
+                                      ]
+                                    }
+                                  ]
+                                },
+                                null
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "val": 156,
+                          "id": 60,
+                          "children": [
+                            null,
+                            {
+                              "val": 160,
+                              "id": 61,
+                              "children": [
+                                {
+                                  "val": 176,
+                                  "id": 62,
+                                  "children": [
+                                    {
+                                      "val": 182,
+                                      "id": 63,
+                                      "children": [
+                                        null,
+                                        null
+                                      ]
+                                    },
+                                    null
+                                  ]
+                                },
+                                {
+                                  "val": 166,
+                                  "id": 64,
+                                  "children": [
+                                    null,
+                                    null
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "val": 129,
+                      "id": 65,
+                      "children": [
+                        {
+                          "val": 141,
+                          "id": 66,
+                          "children": [
+                            null,
+                            null
+                          ]
+                        },
+                        {
+                          "val": 145,
+                          "id": 67,
+                          "children": [
+                            {
+                              "val": 147,
+                              "id": 68,
+                              "children": [
+                                null,
+                                null
+                              ]
+                            },
+                            null
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "val": 119,
+                  "id": 69,
+                  "children": [
+                    {
+                      "val": 121,
+                      "id": 70,
+                      "children": [
+                        null,
+                        {
+                          "val": 121,
+                          "id": 71,
+                          "children": [
+                            null,
+                            null
+                          ]
+                        }
+                      ]
+                    },
+                    null
+                  ]
+                }
+              ]
+            },
+            {
+              "val": 117,
+              "id": 72,
+              "children": [
+                {
+                  "val": 123,
+                  "id": 73,
+                  "children": [
+                    null,
+                    {
+                      "val": 142,
+                      "id": 74,
+                      "children": [
+                        {
+                          "val": 145,
+                          "id": 75,
+                          "children": [
+                            null,
+                            null
+                          ]
+                        },
+                        {
+                          "val": 151,
+                          "id": 76,
+                          "children": [
+                            null,
+                            null
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                null
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
