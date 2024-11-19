@@ -1,5 +1,5 @@
 import json
-from BinaryTree import BinaryTree
+from BinaryTree.Syntax.BinaryTree import BinaryTree
 # prints "INVALID BINARY TREE" IF ILLEGAL, NOTHING IF LEGAL
 #returns True if legal, False if illegal
 def verify_tree(filepath):

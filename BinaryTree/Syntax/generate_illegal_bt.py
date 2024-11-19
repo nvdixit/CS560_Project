@@ -24,7 +24,6 @@ def add_illegal_children(id_, node_count, err_nodes, err_type):
     return root
 
 def create_cycle(root, tree):
-
     while True:
         if not tree.children[0] and not tree.children[1]: # Found a leaf node!
             break

@@ -1,4 +1,3 @@
-
 class BinaryTree:
     def __init__(self, val, id_):
         self.val = val # random bit string
