@@ -52,6 +52,6 @@ def print_inorder_traversal(tree):
 if __name__ == '__main__':
     random.seed(26) # temporarily have this for debug/testing purposes
     for i in range(5):
-        rndmInt = random.randint(0,150)
+        rndmInt = random.randint(0, 300)
         tree = generate_legal_bt(node_count=rndmInt, id_=0, a=1)
         dump_to_file.dump_to_json_file(tree.flatten(), 'Legal_BT_Balance/legal_bt_{0}.json'.format(i + 1))
