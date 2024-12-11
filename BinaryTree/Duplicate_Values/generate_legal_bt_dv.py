@@ -74,7 +74,7 @@ def check_unique_vals(tree) -> list:
 
 
 if __name__ == '__main__':
-    random.seed(26) # temporarily have this for debug/testing purposes
+    #random.seed(26) # temporarily have this for debug/testing purposes
     for i in range(5):
         rndmInt = random.randint(0,150)
         tree = generate_legal_bt(node_count=rndmInt, id_=0)

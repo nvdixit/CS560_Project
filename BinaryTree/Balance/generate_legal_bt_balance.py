@@ -50,7 +50,7 @@ def print_inorder_traversal(tree):
 
 
 if __name__ == '__main__':
-    random.seed(26) # temporarily have this for debug/testing purposes
+    #random.seed(26) # temporarily have this for debug/testing purposes
     for i in range(5):
         rndmInt = random.randint(0, 300)
         tree = generate_legal_bt(node_count=rndmInt, id_=0, a=1)

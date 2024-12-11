@@ -36,7 +36,7 @@ def generate_illegal_bt(id_, min_value, period, node_count=100):
 # 3: The tree contains a node with itself as a child
 
 if __name__ == '__main__':
-    random.seed(26) # temporarily have this for debug/testing purposes
+    #random.seed(26) # temporarily have this for debug/testing purposes
     total_errs = 3
     size = 150
     for i in range(6):

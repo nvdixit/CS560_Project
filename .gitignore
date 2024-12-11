@@ -12,3 +12,5 @@ Graph/__pycache__/generate_legal_graph.cpython-310.pyc
 *.pyc
 
 .idea/*
+BinaryTree/__pycache__/*
+BinaryTree/*/__pycache__/*
